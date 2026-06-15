@@ -12,11 +12,11 @@ jobs:
   - name: host name
     run:  Hostname
   - name: storage
-    uses: free -h 
+    uses: Free -h 
   - name: uname
     run:  Uname
   - name: Df
-    run:  df -h
+    run:  Df -h
   - name: time
     run:  Uptime
      

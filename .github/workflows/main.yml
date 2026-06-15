@@ -16,7 +16,7 @@ jobs:
   - name: storage
     run:  free -h
   - name: Df
-    run:  Df -h
+    run:  df -h
   - name: time
     run:  uptime
      

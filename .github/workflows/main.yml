@@ -11,10 +11,10 @@ jobs:
   steps:
   - name: host name
     run:  Hostname
+  - name: Uname
+    uses: Uname 
   - name: storage
-    uses: Free -h 
-  - name: uname
-    run:  Uname
+    run:  Free -h
   - name: Df
     run:  Df -h
   - name: time

@@ -2,7 +2,7 @@ name: my first pipline
 
 on:
   push:
-    branch:
+    branches:
       - main 
 
 jobs:
@@ -10,13 +10,13 @@ jobs:
   runs-on: ubuntu-latest
   steps:
   - name: host name
-    run:  Hostname
+    run:  hostname
   - name: Uname
-    run: Uname 
+    run:  uname 
   - name: storage
-    run:  Free -h
+    run:  free -h
   - name: Df
     run:  Df -h
   - name: time
-    run:  Uptime
+    run:  uptime
      

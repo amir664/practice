@@ -12,7 +12,7 @@ jobs:
   - name: host name
     run:  Hostname
   - name: Uname
-    uses: Uname 
+    run: Uname 
   - name: storage
     run:  Free -h
   - name: Df

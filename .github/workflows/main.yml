@@ -9,11 +9,14 @@ jobs:
  build:
   runs-on: ubuntu-latest
   steps:
-  - name: checkout code
-    uses: actions/checkout@v4
-  - name: set python
-    uses: actions/setup-python@v5 
-  - name: install dependencies
-    run: pip install flask
-
- 
+  - name: host name
+    run:  Hostname
+  - name: storage
+    uses: free -h 
+  - name: uname
+    run:  Uname
+  - name: Df
+    run:  df -h
+  - name: time
+    run:  Uptime
+     
